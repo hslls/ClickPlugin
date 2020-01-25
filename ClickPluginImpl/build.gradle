@@ -1,0 +1,21 @@
+apply plugin: 'java-library'
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/mapleleaf/maven'
+    }
+    maven {
+        url 'https://maven.aliyun.com/repository/google'
+    }
+    maven {
+        url 'https://maven.aliyun.com/repository/jcenter'
+    }
+
+    google()
+    jcenter()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation 'com.github.hlls:transform:0.0.4'
+}

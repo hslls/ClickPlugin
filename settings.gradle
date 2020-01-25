@@ -1,0 +1,2 @@
+include ':ClickPluginImpl'
+rootProject.name='ClickPlugin'
