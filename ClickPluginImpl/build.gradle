@@ -38,7 +38,7 @@ publish {
     userOrg = 'mapleleaf'
     groupId = 'com.github.hlls'
     artifactId = 'click-plugin'
-    publishVersion = '0.0.1'
+    publishVersion = '0.0.2'
     desc = 'Android点击事件添加Toast提示插件'
     website = 'https://github.com/hslls/ClickPlugin.git'
 }
